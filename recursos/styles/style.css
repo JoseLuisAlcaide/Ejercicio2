@@ -1,0 +1,69 @@
+body {
+  background-color: antiquewhite;
+}
+
+#juego {
+   margin-left: auto;
+   margin-right: auto;
+   display:block;
+}
+
+#lateral {
+  width: 600px;
+  height:400px;
+  float: left;
+  display: inline-block;
+}
+
+#puntuacion {
+    font-size: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    margin-bottom: 10px;;
+ }
+ 
+#puntos {
+    display: inline-block;
+}
+
+#explicacion {
+  float: left;
+  height:400px;
+  width: 50%;
+}
+
+#tablero {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #008CBA;
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    color: #008CBA;
+    font-size: 30px;
+    text-align:center; 
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
